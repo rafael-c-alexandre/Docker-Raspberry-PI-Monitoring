@@ -92,7 +92,7 @@ services:
 
   smartctl-exporter:
     container_name: monitoring-smartctl-exporter
-    image: rafalex99/smartctl:latest
+    image: rafalex99/smartctl-exporter:latest
     hostname: rpi-smartctl-exporter
     restart: unless-stopped
     privileged: true
